@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{96CEE712-04EF-4E4A-855C-03945BDF3D34}"
+	ProjectSection(SolutionItems) = preProject
+		Tests\GlobalUsings.cs = Tests\GlobalUsings.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentTracker.UnitTests", "Tests\StudentTracker.UnitTests\StudentTracker.UnitTests.csproj", "{A1B2C3D4-E5F6-7890-ABCD-123456789012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentTracker.Domain", "Src\StudentTracker.Domain\StudentTracker.Domain.csproj", "{3DE7F597-16BB-4B48-B76F-6E1959A0B7EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentTracker.Infrastructure", "Src\StudentTracker.Infrastructure\StudentTracker.Infrastructure.csproj", "{53B518BC-DA71-4C89-80E6-8344B7D81490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentTracker.Application", "Src\StudentTracker.Application\StudentTracker.Application.csproj", "{09EA166C-80F8-480C-BD7F-E8346E38331B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentTracker.Api", "Src\StudentTracker.Api\StudentTracker.Api.csproj", "{77E1DB88-0273-45EC-B972-3FF62149E4F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1B2C3D4-E5F6-7890-ABCD-123456789012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-123456789012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-123456789012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-E5F6-7890-ABCD-123456789012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DE7F597-16BB-4B48-B76F-6E1959A0B7EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE7F597-16BB-4B48-B76F-6E1959A0B7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE7F597-16BB-4B48-B76F-6E1959A0B7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE7F597-16BB-4B48-B76F-6E1959A0B7EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B518BC-DA71-4C89-80E6-8344B7D81490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B518BC-DA71-4C89-80E6-8344B7D81490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B518BC-DA71-4C89-80E6-8344B7D81490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B518BC-DA71-4C89-80E6-8344B7D81490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09EA166C-80F8-480C-BD7F-E8346E38331B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09EA166C-80F8-480C-BD7F-E8346E38331B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09EA166C-80F8-480C-BD7F-E8346E38331B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09EA166C-80F8-480C-BD7F-E8346E38331B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E1DB88-0273-45EC-B972-3FF62149E4F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E1DB88-0273-45EC-B972-3FF62149E4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E1DB88-0273-45EC-B972-3FF62149E4F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E1DB88-0273-45EC-B972-3FF62149E4F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1B2C3D4-E5F6-7890-ABCD-123456789012} = {96CEE712-04EF-4E4A-855C-03945BDF3D34}
+		{3DE7F597-16BB-4B48-B76F-6E1959A0B7EF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{53B518BC-DA71-4C89-80E6-8344B7D81490} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{09EA166C-80F8-480C-BD7F-E8346E38331B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{77E1DB88-0273-45EC-B972-3FF62149E4F6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2528264-A8D3-4036-9664-AC9D6B10DC10}
+	EndGlobalSection
+EndGlobal

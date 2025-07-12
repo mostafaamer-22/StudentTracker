@@ -1,0 +1,17 @@
+global using Xunit;
+global using FluentAssertions;
+global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Threading.Tasks;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.Logging;
+global using Microsoft.EntityFrameworkCore;
+global using StudentTracker.Domain.Entities;
+global using StudentTracker.Domain.Enums;
+global using StudentTracker.Domain.Shared;
+global using StudentTracker.Application.Features.Students.DTOs;
+global using StudentTracker.Application.Features.Auth.DTOs;
+global using StudentTracker.Infrastructure;
+global using Bogus;
